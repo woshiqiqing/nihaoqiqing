@@ -1,0 +1,296 @@
+ Valus in root:x:0:0:root:/root:/bin/bash -
+     root
+     x
+     0
+     0
+     root
+     /root
+     /bin/bash
+ Valus in daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin -
+     daemon
+     x
+     1
+     1
+     daemon
+     /usr/sbin
+     /usr/sbin/nologin
+ Valus in bin:x:2:2:bin:/bin:/usr/sbin/nologin -
+     bin
+     x
+     2
+     2
+     bin
+     /bin
+     /usr/sbin/nologin
+ Valus in sys:x:3:3:sys:/dev:/usr/sbin/nologin -
+     sys
+     x
+     3
+     3
+     sys
+     /dev
+     /usr/sbin/nologin
+ Valus in sync:x:4:65534:sync:/bin:/bin/sync -
+     sync
+     x
+     4
+     65534
+     sync
+     /bin
+     /bin/sync
+ Valus in games:x:5:60:games:/usr/games:/usr/sbin/nologin -
+     games
+     x
+     5
+     60
+     games
+     /usr/games
+     /usr/sbin/nologin
+ Valus in man:x:6:12:man:/var/cache/man:/usr/sbin/nologin -
+     man
+     x
+     6
+     12
+     man
+     /var/cache/man
+     /usr/sbin/nologin
+ Valus in lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin -
+     lp
+     x
+     7
+     7
+     lp
+     /var/spool/lpd
+     /usr/sbin/nologin
+ Valus in mail:x:8:8:mail:/var/mail:/usr/sbin/nologin -
+     mail
+     x
+     8
+     8
+     mail
+     /var/mail
+     /usr/sbin/nologin
+ Valus in news:x:9:9:news:/var/spool/news:/usr/sbin/nologin -
+     news
+     x
+     9
+     9
+     news
+     /var/spool/news
+     /usr/sbin/nologin
+ Valus in uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin -
+     uucp
+     x
+     10
+     10
+     uucp
+     /var/spool/uucp
+     /usr/sbin/nologin
+ Valus in proxy:x:13:13:proxy:/bin:/usr/sbin/nologin -
+     proxy
+     x
+     13
+     13
+     proxy
+     /bin
+     /usr/sbin/nologin
+ Valus in www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin -
+     www-data
+     x
+     33
+     33
+     www-data
+     /var/www
+     /usr/sbin/nologin
+ Valus in backup:x:34:34:backup:/var/backups:/usr/sbin/nologin -
+     backup
+     x
+     34
+     34
+     backup
+     /var/backups
+     /usr/sbin/nologin
+ Valus in list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin -
+     list
+     x
+     38
+     38
+     Mailing List Manager
+     /var/list
+     /usr/sbin/nologin
+ Valus in irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin -
+     irc
+     x
+     39
+     39
+     ircd
+     /var/run/ircd
+     /usr/sbin/nologin
+ Valus in gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin -
+     gnats
+     x
+     41
+     41
+     Gnats Bug-Reporting System (admin)
+     /var/lib/gnats
+     /usr/sbin/nologin
+ Valus in nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin -
+     nobody
+     x
+     65534
+     65534
+     nobody
+     /nonexistent
+     /usr/sbin/nologin
+ Valus in libuuid:x:100:101::/var/lib/libuuid:/bin/sh -
+     libuuid
+     x
+     100
+     101
+     
+     /var/lib/libuuid
+     /bin/sh
+ Valus in syslog:x:101:103::/home/syslog:/bin/false -
+     syslog
+     x
+     101
+     103
+     
+     /home/syslog
+     /bin/false
+ Valus in messagebus:x:102:105::/var/run/dbus:/bin/false -
+     messagebus
+     x
+     102
+     105
+     
+     /var/run/dbus
+     /bin/false
+ Valus in colord:x:103:108:colord colour management daemon,,,:/var/lib/colord:/bin/false -
+     colord
+     x
+     103
+     108
+     colord colour management daemon,,,
+     /var/lib/colord
+     /bin/false
+ Valus in lightdm:x:104:111:Light Display Manager:/var/lib/lightdm:/bin/false -
+     lightdm
+     x
+     104
+     111
+     Light Display Manager
+     /var/lib/lightdm
+     /bin/false
+ Valus in whoopsie:x:105:114::/nonexistent:/bin/false -
+     whoopsie
+     x
+     105
+     114
+     
+     /nonexistent
+     /bin/false
+ Valus in avahi-autoipd:x:106:117:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/bin/false -
+     avahi-autoipd
+     x
+     106
+     117
+     Avahi autoip daemon,,,
+     /var/lib/avahi-autoipd
+     /bin/false
+ Valus in avahi:x:107:118:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/false -
+     avahi
+     x
+     107
+     118
+     Avahi mDNS daemon,,,
+     /var/run/avahi-daemon
+     /bin/false
+ Valus in usbmux:x:108:46:usbmux daemon,,,:/home/usbmux:/bin/false -
+     usbmux
+     x
+     108
+     46
+     usbmux daemon,,,
+     /home/usbmux
+     /bin/false
+ Valus in kernoops:x:109:65534:Kernel Oops Tracking Daemon,,,:/:/bin/false -
+     kernoops
+     x
+     109
+     65534
+     Kernel Oops Tracking Daemon,,,
+     /
+     /bin/false
+ Valus in pulse:x:110:119:PulseAudio daemon,,,:/var/run/pulse:/bin/false -
+     pulse
+     x
+     110
+     119
+     PulseAudio daemon,,,
+     /var/run/pulse
+     /bin/false
+ Valus in rtkit:x:111:122:RealtimeKit,,,:/proc:/bin/false -
+     rtkit
+     x
+     111
+     122
+     RealtimeKit,,,
+     /proc
+     /bin/false
+ Valus in speech-dispatcher:x:112:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/sh -
+     speech-dispatcher
+     x
+     112
+     29
+     Speech Dispatcher,,,
+     /var/run/speech-dispatcher
+     /bin/sh
+ Valus in hplip:x:113:7:HPLIP system user,,,:/var/run/hplip:/bin/false -
+     hplip
+     x
+     113
+     7
+     HPLIP system user,,,
+     /var/run/hplip
+     /bin/false
+ Valus in saned:x:114:123::/home/saned:/bin/false -
+     saned
+     x
+     114
+     123
+     
+     /home/saned
+     /bin/false
+ Valus in victor:x:1000:1000:victor,,,:/home/victor:/bin/bash -
+     victor
+     x
+     1000
+     1000
+     victor,,,
+     /home/victor
+     /bin/bash
+ Valus in landscape:x:115:125::/var/lib/landscape:/bin/false -
+     landscape
+     x
+     115
+     125
+     
+     /var/lib/landscape
+     /bin/false
+ Valus in dnsmasq:x:116:65534:dnsmasq,,,:/var/lib/misc:/bin/false -
+     dnsmasq
+     x
+     116
+     65534
+     dnsmasq,,,
+     /var/lib/misc
+     /bin/false
+ Valus in guest-oWO47P:x:117:126:Guest,,,:/tmp/guest-oWO47P:/bin/bash -
+     guest-oWO47P
+     x
+     117
+     126
+     Guest,,,
+     /tmp/guest-oWO47P
+     /bin/bash
